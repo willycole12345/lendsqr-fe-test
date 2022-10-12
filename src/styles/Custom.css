@@ -120,7 +120,7 @@
 }
 
 .list_item {
-  margin-top: 9%;
+  margin-top: 4%;
   position: relative;
   display: inline-block;
   text-align: center;
@@ -428,6 +428,20 @@
   left: 343px;
   top: 290px;
   border-radius: 4px;
+}
+
+.blacklistbutn {
+  margin-left: 9px;
+}
+
+.act {
+  margin-left: 4%;
+}
+
+.BacklistUser {
+  float: right;
+  padding-left: 70%;
+  margin-top: -38px;
 }
 
 @media only screen and (max-device-width: 700px) {

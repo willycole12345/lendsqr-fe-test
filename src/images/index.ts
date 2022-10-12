@@ -38,6 +38,7 @@ import eyes from '../images/eyes.png';
 import blackList from '../images/blacklist.png';
 import filter from '../images/blacklist.png';
 import activeUser from '../images/actives.png';
+import topPlaceHolder from '../images/topplacehold.png';
 
 export {
     userIcon,
@@ -79,5 +80,6 @@ export {
     blackList,
     filter,
     activeUser,
+    topPlaceHolder,
     moreDetails
 };

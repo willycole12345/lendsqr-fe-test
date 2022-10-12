@@ -1,4 +1,4 @@
-import { bell, drop, logo, vector } from '../images';
+import { bell, drop, logo, topPlaceHolder, vector } from '../images';
 
 function Header() {
     return (
@@ -26,6 +26,9 @@ function Header() {
                                     <li className="list_item">Doc</li>
                                     <li className="list_item">
                                         <img src={bell} alt="bell" />
+                                    </li>
+                                    <li className="list_item">
+                                    <img src={topPlaceHolder} className="rounded-circle" alt="placeholde" />
                                     </li>
                                     <li className="list_item">
                                         Adedeji <img src={drop} alt="drop" />{' '}

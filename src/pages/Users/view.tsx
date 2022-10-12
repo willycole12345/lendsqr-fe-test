@@ -39,6 +39,13 @@ function UserView() {
                        <span className="navigabar"><img src={arrow}/> <p className='navtitle'>Back to Users</p></span>
                         <div className="row">
                             <span className="dashboard_page_title">Users Details</span>
+                           
+                          <div className='BacklistUser'>
+                              <button type="button" className="btn btn-outline-danger blacklistbutn">BLACKLIST USER</button>
+                       
+                             <button type="button" className="btn btn-outline-success act">ACTIVATE USER </button>
+                          </div>
+                        
                         </div>
                     </div>
                     <div className="m-4"></div>
@@ -65,7 +72,7 @@ function UserView() {
                                         <img className="" src={star} alt="brief2" />
                                     </div>
                                     <div className="col-md-3">
-                                        <div className="balanceaccount">{user?.accountBalance}</div>
+                                        <div className="balanceaccount">₦{user?.accountBalance}</div>
                                         <div className="accountnumber">
                                             {user?.accountNumber}/{user?.education.sector}
                                         </div>
