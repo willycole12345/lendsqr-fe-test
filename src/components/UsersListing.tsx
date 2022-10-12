@@ -51,7 +51,35 @@ function UserListing() {
     return (
         <>
             <DataTable
-                customStyles={{}}
+                customStyles={{
+                    rows: {
+                        style: {
+                            minHeight: '72px', // override the row height
+                        },
+                    },
+                    headCells: {
+                        style: {
+                            color:'#213F7D',
+                            fontFamily: 'Work Sans',
+                          fontSize: '12px',
+                          fontWeight: '600',
+                          lineHeight: '14px',
+                          letterSpacing: '0em',
+                          textAlign:'left',
+                        },
+                    },
+                    cells: {
+                        style: {
+                             fontFamily:'Work Sans !important',
+                              fontSize:'14px !important',
+                              fontWeight: '400 !important',
+                              lineHeight: '16px !important',
+                              letterSpacing: '0px !important',
+                              textAlign: 'left !important',
+                              color:'#213F7D !important',
+                        },
+                    },
+                }}
                 columns={[
                     {
                         sortable: true,
