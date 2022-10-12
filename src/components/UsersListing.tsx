@@ -6,7 +6,7 @@ import DataTable from 'react-data-table-component';
 import { useNavigate } from 'react-router-dom';
 import { API_URL } from '../config';
 
-import { moreDetails, userIcon } from '../images';
+import { activeUser, blackList, eyes, moreDetails, userIcon } from '../images';
 import { UserInterface } from '../types';
 
 const status = [
@@ -92,15 +92,15 @@ function UserListing() {
                                 <Dropdown.Toggle as={MoreToggle} variant="transparent" id={`dropdown-${_.id}`} />
                                 <Dropdown.Menu>
                                     <div role={'button'} onClick={() => onViewDetails(_)} className="d-block  py-2 px-1">
-                                        <img width={20} src={userIcon} alt="userpro" className="mx-2" />
+                                        <img width={10} src={eyes} alt="userpro" className="mx-2" />
                                         <small>View details</small>
                                     </div>
                                     <div className="d-block py-2 px-1">
-                                        <img width={20} src={userIcon} alt="userpro" className="mx-2" />
+                                        <img width={10} src={blackList} alt="userpro" className="mx-2" />
                                         <small>Blacklist User</small>
                                     </div>
                                     <div className="d-block py-2 px-1">
-                                        <img width={20} src={userIcon} alt="userpro" className="mx-2" />
+                                        <img width={10} src={activeUser} alt="userpro" className="mx-2" />
                                         <small>Activate User</small>
                                     </div>
                                 </Dropdown.Menu>

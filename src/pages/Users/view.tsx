@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 
 import { AccountLayout } from '../../components';
 import { API_URL } from '../../config';
-import { avatar, full, star } from '../../images';
+import { avatar, arrow, full, star } from '../../images';
 import { UserInterface } from '../../types';
 import { toCurrency } from '../../utils';
 
@@ -36,7 +36,7 @@ function UserView() {
             <AccountLayout>
                 <div className="dashboard">
                     <div className="col-md-12">
-                       <span className="dashboard_page_title">Back to Users</span>
+                       <span className="navigabar"><img src={arrow}/> <p className='navtitle'>Back to Users</p></span>
                         <div className="row">
                             <span className="dashboard_page_title">Users Details</span>
                         </div>
@@ -135,7 +135,7 @@ function UserView() {
                                                 <h2 className="nameplace">{profile?.firstName} </h2>
                                             </div>
                                         </div>
-                                        <hr />
+                                        <hr className='hrstyle'/>
                                         <h3 className="profilecard"> Education and Employment </h3>
                                         <div className="row">
                                             <div className="col-md-2 mrg_top padd">
@@ -189,7 +189,7 @@ function UserView() {
                                                 <h2 className="nameplace">{socials.instagram} </h2>
                                             </div>
                                         </div>{' '}
-                                        <hr />
+                                        <hr className='hrstyle'/>
                                         <h3 className="profilecard"> Guarantor </h3>
                                         <div className="row">
                                             <div className="col-md-2 mrg_top padd">
@@ -211,25 +211,7 @@ function UserView() {
                                                 <h2 className="nameplace">{guarantor.gender} </h2>
                                             </div>
                                         </div>
-                                        <hr />
-                                        <div className="row">
-                                            <div className="col-md-2 mrg_top padd">
-                                                <p className="namestye">Fullname</p>
-                                                <h2 className="nameplace">Cole william </h2>
-                                            </div>
-                                            <div className="col-md-2 mrg_top padd">
-                                                <p className="namestye">Phone number</p>
-                                                <h2 className="nameplace">Cole william </h2>
-                                            </div>
-                                            <div className="col-md-2 mrg_top padd">
-                                                <p className="namestye">Email Address</p>
-                                                <h2 className="nameplace">Cole william </h2>
-                                            </div>
-                                            <div className="col-md-2 mrg_top padd">
-                                                <p className="namestye">Relationship</p>
-                                                <h2 className="nameplace">Cole william </h2>
-                                            </div>
-                                        </div>
+                                        <hr className='hrstyle' />
                                     </div>
                                 </div>
                             </div>

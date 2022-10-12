@@ -5,7 +5,9 @@ function Header() {
         <div className="Wrapper">
             <div className="container-fluid">
                 <div className="wrap">
-                    <div className="logo_slider">
+                <span className="header__hamburger" id="topBarHeaderResponsiveBar">
+                </span>
+                  <div className="logo_slider">
                         <img className="img_class pull_left" src={logo} alt="logo" />
                     </div>
                     <div className="display_full">

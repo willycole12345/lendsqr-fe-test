@@ -7,7 +7,7 @@ function Dashboard() {
             <div className="dashboard">
                 <div className="col-md-12">
                     <div className="row">
-                        <span className="dashboard_page_title">Users </span>
+                        <span className="dashboard_page_title">Dashboard </span>
                     </div>
                 </div>
                 <div className="m-4"></div>

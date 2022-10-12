@@ -34,6 +34,10 @@ import badgepercent from '../images/badge-percent.png';
 import auditlog from '../images/auditlog.png';
 import arrow from '../images/arrow.png';
 import moreDetails from '../images/moredetails.png';
+import eyes from '../images/eyes.png';
+import blackList from '../images/blacklist.png';
+import filter from '../images/blacklist.png';
+import activeUser from '../images/actives.png';
 
 export {
     userIcon,
@@ -71,5 +75,9 @@ export {
     badgepercent,
     auditlog,
     arrow,
+    eyes,
+    blackList,
+    filter,
+    activeUser,
     moreDetails
 };
